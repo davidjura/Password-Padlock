@@ -15,6 +15,18 @@
 		FC14FA5D1DF8B87C00145744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA5B1DF8B87C00145744 /* LaunchScreen.storyboard */; };
 		FC14FA681DF8B87C00145744 /* PasswordLockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA671DF8B87C00145744 /* PasswordLockerTests.m */; };
 		FC14FA731DF8B87C00145744 /* PasswordLockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA721DF8B87C00145744 /* PasswordLockerUITests.m */; };
+		FC14FA811DF8BC6500145744 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA801DF8BC6500145744 /* logo.png */; };
+		FC14FA841DF8BF7D00145744 /* UITextFieldPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */; };
+		FC14FA871DF8CD8D00145744 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */; };
+		FC186B7B1DFDF2E7001F86B5 /* UserListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */; };
+		FC83B3001DFD392400DB1522 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B2FB1DFD392400DB1522 /* NSData+Base64.m */; };
+		FC83B3011DFD392400DB1522 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */; };
+		FC83B3021DFD392400DB1522 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */; };
+		FC83B3051DFD397500DB1522 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B3041DFD397500DB1522 /* AESCrypt.m */; };
+		FC83B3081DFD3B8800DB1522 /* SqlLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B3071DFD3B8800DB1522 /* SqlLoader.m */; };
+		FC83B30B1DFD524700DB1522 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B30A1DFD524700DB1522 /* UserData.m */; };
+		FCCBA69D1E0130A900D45A9B /* padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA69C1E0130A900D45A9B /* padlock.png */; };
+		FCCBA6A01E0132DA00D45A9B /* AccountInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA69F1E0132DA00D45A9B /* AccountInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,27 @@
 		FC14FA6E1DF8B87C00145744 /* PasswordLockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordLockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC14FA721DF8B87C00145744 /* PasswordLockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordLockerUITests.m; sourceTree = "<group>"; };
 		FC14FA741DF8B87C00145744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC14FA801DF8BC6500145744 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FC14FA821DF8BF7D00145744 /* UITextFieldPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldPassword.h; sourceTree = "<group>"; };
+		FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldPassword.m; sourceTree = "<group>"; };
+		FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FC186B791DFDF2E7001F86B5 /* UserListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListsViewController.h; sourceTree = "<group>"; };
+		FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListsViewController.m; sourceTree = "<group>"; };
+		FC83B2FA1DFD392400DB1522 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FC83B2FB1DFD392400DB1522 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FC83B2FC1DFD392400DB1522 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		FC83B2FE1DFD392400DB1522 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		FC83B3031DFD397500DB1522 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		FC83B3041DFD397500DB1522 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		FC83B3061DFD3B8800DB1522 /* SqlLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlLoader.h; sourceTree = "<group>"; };
+		FC83B3071DFD3B8800DB1522 /* SqlLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlLoader.m; sourceTree = "<group>"; };
+		FC83B3091DFD524700DB1522 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		FC83B30A1DFD524700DB1522 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		FCCBA69C1E0130A900D45A9B /* padlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padlock.png; sourceTree = "<group>"; };
+		FCCBA69E1E0132DA00D45A9B /* AccountInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfoViewController.h; sourceTree = "<group>"; };
+		FCCBA69F1E0132DA00D45A9B /* AccountInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC14FA871DF8CD8D00145744 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +119,7 @@
 				FC14FA661DF8B87C00145744 /* PasswordLockerTests */,
 				FC14FA711DF8B87C00145744 /* PasswordLockerUITests */,
 				FC14FA4B1DF8B87C00145744 /* Products */,
+				FC14FA851DF8CD8D00145744 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +136,35 @@
 		FC14FA4C1DF8B87C00145744 /* PasswordLocker */ = {
 			isa = PBXGroup;
 			children = (
+				FCCBA69C1E0130A900D45A9B /* padlock.png */,
+				FC83B3031DFD397500DB1522 /* AESCrypt.h */,
+				FC83B3041DFD397500DB1522 /* AESCrypt.m */,
+				FC83B2FA1DFD392400DB1522 /* NSData+Base64.h */,
+				FC83B2FB1DFD392400DB1522 /* NSData+Base64.m */,
+				FC83B2FC1DFD392400DB1522 /* NSData+CommonCrypto.h */,
+				FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */,
+				FC83B2FE1DFD392400DB1522 /* NSString+Base64.h */,
+				FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */,
+				FC14FA801DF8BC6500145744 /* logo.png */,
 				FC14FA501DF8B87C00145744 /* AppDelegate.h */,
 				FC14FA511DF8B87C00145744 /* AppDelegate.m */,
 				FC14FA531DF8B87C00145744 /* ViewController.h */,
 				FC14FA541DF8B87C00145744 /* ViewController.m */,
 				FC14FA561DF8B87C00145744 /* Main.storyboard */,
+				FC186B791DFDF2E7001F86B5 /* UserListsViewController.h */,
+				FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */,
 				FC14FA591DF8B87C00145744 /* Assets.xcassets */,
 				FC14FA5B1DF8B87C00145744 /* LaunchScreen.storyboard */,
 				FC14FA5E1DF8B87C00145744 /* Info.plist */,
 				FC14FA4D1DF8B87C00145744 /* Supporting Files */,
+				FC14FA821DF8BF7D00145744 /* UITextFieldPassword.h */,
+				FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */,
+				FC83B3061DFD3B8800DB1522 /* SqlLoader.h */,
+				FC83B3071DFD3B8800DB1522 /* SqlLoader.m */,
+				FC83B3091DFD524700DB1522 /* UserData.h */,
+				FC83B30A1DFD524700DB1522 /* UserData.m */,
+				FCCBA69E1E0132DA00D45A9B /* AccountInfoViewController.h */,
+				FCCBA69F1E0132DA00D45A9B /* AccountInfoViewController.m */,
 			);
 			path = PasswordLocker;
 			sourceTree = "<group>";
@@ -138,6 +193,14 @@
 				FC14FA741DF8B87C00145744 /* Info.plist */,
 			);
 			path = PasswordLockerUITests;
+			sourceTree = "<group>";
+		};
+		FC14FA851DF8CD8D00145744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +309,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC14FA811DF8BC6500145744 /* logo.png in Resources */,
 				FC14FA5D1DF8B87C00145744 /* LaunchScreen.storyboard in Resources */,
 				FC14FA5A1DF8B87C00145744 /* Assets.xcassets in Resources */,
 				FC14FA581DF8B87C00145744 /* Main.storyboard in Resources */,
+				FCCBA69D1E0130A900D45A9B /* padlock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +340,16 @@
 			files = (
 				FC14FA551DF8B87C00145744 /* ViewController.m in Sources */,
 				FC14FA521DF8B87C00145744 /* AppDelegate.m in Sources */,
+				FC14FA841DF8BF7D00145744 /* UITextFieldPassword.m in Sources */,
+				FC83B3021DFD392400DB1522 /* NSString+Base64.m in Sources */,
 				FC14FA4F1DF8B87C00145744 /* main.m in Sources */,
+				FC83B3001DFD392400DB1522 /* NSData+Base64.m in Sources */,
+				FCCBA6A01E0132DA00D45A9B /* AccountInfoViewController.m in Sources */,
+				FC83B3081DFD3B8800DB1522 /* SqlLoader.m in Sources */,
+				FC83B3051DFD397500DB1522 /* AESCrypt.m in Sources */,
+				FC186B7B1DFDF2E7001F86B5 /* UserListsViewController.m in Sources */,
+				FC83B3011DFD392400DB1522 /* NSData+CommonCrypto.m in Sources */,
+				FC83B30B1DFD524700DB1522 /* UserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +498,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = PasswordLocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "David-Jura.PasswordLocker";
@@ -435,6 +511,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = PasswordLocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "David-Jura.PasswordLocker";
@@ -507,6 +585,7 @@
 				FC14FA791DF8B87C00145744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC14FA7A1DF8B87C00145744 /* Build configuration list for PBXNativeTarget "PasswordLockerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +594,7 @@
 				FC14FA7C1DF8B87C00145744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC14FA7D1DF8B87C00145744 /* Build configuration list for PBXNativeTarget "PasswordLockerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +603,7 @@
 				FC14FA7F1DF8B87C00145744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
